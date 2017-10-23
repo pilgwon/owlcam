@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F10B21B1DE5FFA000A971AC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF885B21D28D90D00DD1AAB /* AVFoundation.framework */; };
+		1F22AAD71F9D00C80081507F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F22AACB1F9D00C80081507F /* Constants.swift */; };
+		1F22AAD81F9D00C80081507F /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F22AACC1F9D00C80081507F /* PhotoDetailViewController.swift */; };
+		1F22AAD91F9D00C80081507F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F22AACD1F9D00C80081507F /* Assets.xcassets */; };
+		1F22AADA1F9D00C80081507F /* PhotoWrapperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F22AACE1F9D00C80081507F /* PhotoWrapperViewController.swift */; };
+		1F22AADB1F9D00C80081507F /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F22AACF1F9D00C80081507F /* CameraViewController.swift */; };
+		1F22AADC1F9D00C80081507F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F22AAD01F9D00C80081507F /* LaunchScreen.storyboard */; };
+		1F22AADD1F9D00C80081507F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F22AAD21F9D00C80081507F /* Main.storyboard */; };
+		1F22AADE1F9D00C80081507F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F22AAD41F9D00C80081507F /* Extensions.swift */; };
+		1F22AADF1F9D00C80081507F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F22AAD51F9D00C80081507F /* AppDelegate.swift */; };
+		1F22AAE01F9D00C80081507F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F22AAD61F9D00C80081507F /* Info.plist */; };
+		1FF8859A1D28D40A00DD1AAB /* owlcamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF885991D28D40A00DD1AAB /* owlcamTests.swift */; };
+		1FF885A51D28D40A00DD1AAB /* owlcamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF885A41D28D40A00DD1AAB /* owlcamUITests.swift */; };
+		1FF885B51D28DC8500DD1AAB /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF885B41D28DC8500DD1AAB /* ImageIO.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FF885961D28D40A00DD1AAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FF885791D28D40900DD1AAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FF885801D28D40900DD1AAB;
+			remoteInfo = owlcam;
+		};
+		1FF885A11D28D40A00DD1AAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FF885791D28D40900DD1AAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FF885801D28D40900DD1AAB;
+			remoteInfo = owlcam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F22AACB1F9D00C80081507F /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1F22AACC1F9D00C80081507F /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
+		1F22AACD1F9D00C80081507F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F22AACE1F9D00C80081507F /* PhotoWrapperViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoWrapperViewController.swift; sourceTree = "<group>"; };
+		1F22AACF1F9D00C80081507F /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		1F22AAD11F9D00C80081507F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F22AAD31F9D00C80081507F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F22AAD41F9D00C80081507F /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		1F22AAD51F9D00C80081507F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F22AAD61F9D00C80081507F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FF885811D28D40900DD1AAB /* owlcam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = owlcam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FF885951D28D40A00DD1AAB /* owlcamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = owlcamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FF885991D28D40A00DD1AAB /* owlcamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = owlcamTests.swift; sourceTree = "<group>"; };
+		1FF8859B1D28D40A00DD1AAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FF885A01D28D40A00DD1AAB /* owlcamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = owlcamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FF885A41D28D40A00DD1AAB /* owlcamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = owlcamUITests.swift; sourceTree = "<group>"; };
+		1FF885A61D28D40A00DD1AAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FF885B21D28D90D00DD1AAB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1FF885B41D28DC8500DD1AAB /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FF8857E1D28D40900DD1AAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F10B21B1DE5FFA000A971AC /* AVFoundation.framework in Frameworks */,
+				1FF885B51D28DC8500DD1AAB /* ImageIO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FF885921D28D40A00DD1AAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FF8859D1D28D40A00DD1AAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F22AACA1F9D00C80081507F /* owlcam */ = {
+			isa = PBXGroup;
+			children = (
+				1F22AAE21F9D00EC0081507F /* Etc */,
+				1F22AAE11F9D00E30081507F /* Controller */,
+				1F22AACD1F9D00C80081507F /* Assets.xcassets */,
+				1F22AAD21F9D00C80081507F /* Main.storyboard */,
+				1F22AAD51F9D00C80081507F /* AppDelegate.swift */,
+				1F22AAD61F9D00C80081507F /* Info.plist */,
+				1F22AAD01F9D00C80081507F /* LaunchScreen.storyboard */,
+			);
+			path = owlcam;
+			sourceTree = "<group>";
+		};
+		1F22AAE11F9D00E30081507F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1F22AACC1F9D00C80081507F /* PhotoDetailViewController.swift */,
+				1F22AACE1F9D00C80081507F /* PhotoWrapperViewController.swift */,
+				1F22AACF1F9D00C80081507F /* CameraViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1F22AAE21F9D00EC0081507F /* Etc */ = {
+			isa = PBXGroup;
+			children = (
+				1F22AACB1F9D00C80081507F /* Constants.swift */,
+				1F22AAD41F9D00C80081507F /* Extensions.swift */,
+			);
+			path = Etc;
+			sourceTree = "<group>";
+		};
+		1FF885781D28D40900DD1AAB = {
+			isa = PBXGroup;
+			children = (
+				1F22AACA1F9D00C80081507F /* owlcam */,
+				1FF885981D28D40A00DD1AAB /* owlcamTests */,
+				1FF885A31D28D40A00DD1AAB /* owlcamUITests */,
+				1FF885821D28D40900DD1AAB /* Products */,
+				1FF885B41D28DC8500DD1AAB /* ImageIO.framework */,
+				1FF885B21D28D90D00DD1AAB /* AVFoundation.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		1FF885821D28D40900DD1AAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FF885811D28D40900DD1AAB /* owlcam.app */,
+				1FF885951D28D40A00DD1AAB /* owlcamTests.xctest */,
+				1FF885A01D28D40A00DD1AAB /* owlcamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FF885981D28D40A00DD1AAB /* owlcamTests */ = {
+			isa = PBXGroup;
+			children = (
+				1FF885991D28D40A00DD1AAB /* owlcamTests.swift */,
+				1FF8859B1D28D40A00DD1AAB /* Info.plist */,
+			);
+			path = owlcamTests;
+			sourceTree = "<group>";
+		};
+		1FF885A31D28D40A00DD1AAB /* owlcamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1FF885A41D28D40A00DD1AAB /* owlcamUITests.swift */,
+				1FF885A61D28D40A00DD1AAB /* Info.plist */,
+			);
+			path = owlcamUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FF885801D28D40900DD1AAB /* owlcam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FF885A91D28D40A00DD1AAB /* Build configuration list for PBXNativeTarget "owlcam" */;
+			buildPhases = (
+				1FF8857D1D28D40900DD1AAB /* Sources */,
+				1FF8857E1D28D40900DD1AAB /* Frameworks */,
+				1FF8857F1D28D40900DD1AAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = owlcam;
+			productName = owlcam;
+			productReference = 1FF885811D28D40900DD1AAB /* owlcam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FF885941D28D40A00DD1AAB /* owlcamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FF885AC1D28D40A00DD1AAB /* Build configuration list for PBXNativeTarget "owlcamTests" */;
+			buildPhases = (
+				1FF885911D28D40A00DD1AAB /* Sources */,
+				1FF885921D28D40A00DD1AAB /* Frameworks */,
+				1FF885931D28D40A00DD1AAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FF885971D28D40A00DD1AAB /* PBXTargetDependency */,
+			);
+			name = owlcamTests;
+			productName = owlcamTests;
+			productReference = 1FF885951D28D40A00DD1AAB /* owlcamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1FF8859F1D28D40A00DD1AAB /* owlcamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FF885AF1D28D40A00DD1AAB /* Build configuration list for PBXNativeTarget "owlcamUITests" */;
+			buildPhases = (
+				1FF8859C1D28D40A00DD1AAB /* Sources */,
+				1FF8859D1D28D40A00DD1AAB /* Frameworks */,
+				1FF8859E1D28D40A00DD1AAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FF885A21D28D40A00DD1AAB /* PBXTargetDependency */,
+			);
+			name = owlcamUITests;
+			productName = owlcamUITests;
+			productReference = 1FF885A01D28D40A00DD1AAB /* owlcamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FF885791D28D40900DD1AAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = pilgwon;
+				TargetAttributes = {
+					1FF885801D28D40900DD1AAB = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 68L248M44U;
+						LastSwiftMigration = 0800;
+					};
+					1FF885941D28D40A00DD1AAB = {
+						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
+						TestTargetID = 1FF885801D28D40900DD1AAB;
+					};
+					1FF8859F1D28D40A00DD1AAB = {
+						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
+						TestTargetID = 1FF885801D28D40900DD1AAB;
+					};
+				};
+			};
+			buildConfigurationList = 1FF8857C1D28D40900DD1AAB /* Build configuration list for PBXProject "owlcam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FF885781D28D40900DD1AAB;
+			productRefGroup = 1FF885821D28D40900DD1AAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FF885801D28D40900DD1AAB /* owlcam */,
+				1FF885941D28D40A00DD1AAB /* owlcamTests */,
+				1FF8859F1D28D40A00DD1AAB /* owlcamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FF8857F1D28D40900DD1AAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F22AAE01F9D00C80081507F /* Info.plist in Resources */,
+				1F22AADD1F9D00C80081507F /* Main.storyboard in Resources */,
+				1F22AAD91F9D00C80081507F /* Assets.xcassets in Resources */,
+				1F22AADC1F9D00C80081507F /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FF885931D28D40A00DD1AAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FF8859E1D28D40A00DD1AAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FF8857D1D28D40900DD1AAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F22AADF1F9D00C80081507F /* AppDelegate.swift in Sources */,
+				1F22AADE1F9D00C80081507F /* Extensions.swift in Sources */,
+				1F22AAD81F9D00C80081507F /* PhotoDetailViewController.swift in Sources */,
+				1F22AADB1F9D00C80081507F /* CameraViewController.swift in Sources */,
+				1F22AADA1F9D00C80081507F /* PhotoWrapperViewController.swift in Sources */,
+				1F22AAD71F9D00C80081507F /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FF885911D28D40A00DD1AAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF8859A1D28D40A00DD1AAB /* owlcamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FF8859C1D28D40A00DD1AAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF885A51D28D40A00DD1AAB /* owlcamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FF885971D28D40A00DD1AAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FF885801D28D40900DD1AAB /* owlcam */;
+			targetProxy = 1FF885961D28D40A00DD1AAB /* PBXContainerItemProxy */;
+		};
+		1FF885A21D28D40A00DD1AAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FF885801D28D40900DD1AAB /* owlcam */;
+			targetProxy = 1FF885A11D28D40A00DD1AAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F22AAD01F9D00C80081507F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F22AAD11F9D00C80081507F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1F22AAD21F9D00C80081507F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F22AAD31F9D00C80081507F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FF885A71D28D40A00DD1AAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1FF885A81D28D40A00DD1AAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FF885AA1D28D40A00DD1AAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 68L248M44U;
+				INFOPLIST_FILE = owlcam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.feelg.owlcam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1FF885AB1D28D40A00DD1AAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 68L248M44U;
+				INFOPLIST_FILE = owlcam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.feelg.owlcam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1FF885AD1D28D40A00DD1AAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = owlcamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.feelg.owlcamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/owlcam.app/owlcam";
+			};
+			name = Debug;
+		};
+		1FF885AE1D28D40A00DD1AAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = owlcamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.feelg.owlcamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/owlcam.app/owlcam";
+			};
+			name = Release;
+		};
+		1FF885B01D28D40A00DD1AAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = owlcamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.feelg.owlcamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = owlcam;
+			};
+			name = Debug;
+		};
+		1FF885B11D28D40A00DD1AAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = owlcamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.feelg.owlcamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = owlcam;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FF8857C1D28D40900DD1AAB /* Build configuration list for PBXProject "owlcam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FF885A71D28D40A00DD1AAB /* Debug */,
+				1FF885A81D28D40A00DD1AAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FF885A91D28D40A00DD1AAB /* Build configuration list for PBXNativeTarget "owlcam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FF885AA1D28D40A00DD1AAB /* Debug */,
+				1FF885AB1D28D40A00DD1AAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FF885AC1D28D40A00DD1AAB /* Build configuration list for PBXNativeTarget "owlcamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FF885AD1D28D40A00DD1AAB /* Debug */,
+				1FF885AE1D28D40A00DD1AAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FF885AF1D28D40A00DD1AAB /* Build configuration list for PBXNativeTarget "owlcamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FF885B01D28D40A00DD1AAB /* Debug */,
+				1FF885B11D28D40A00DD1AAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FF885791D28D40900DD1AAB /* Project object */;
+}
