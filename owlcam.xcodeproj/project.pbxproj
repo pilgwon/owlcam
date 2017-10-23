@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00D49F8BA0D6EA2B2B872BD6 /* Pods_owlcamTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 758F33B3EE80178305144761 /* Pods_owlcamTests.framework */; };
 		1F10B21B1DE5FFA000A971AC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF885B21D28D90D00DD1AAB /* AVFoundation.framework */; };
 		1F22AAD71F9D00C80081507F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F22AACB1F9D00C80081507F /* Constants.swift */; };
 		1F22AAD81F9D00C80081507F /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F22AACC1F9D00C80081507F /* PhotoDetailViewController.swift */; };
@@ -18,9 +19,12 @@
 		1F22AADE1F9D00C80081507F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F22AAD41F9D00C80081507F /* Extensions.swift */; };
 		1F22AADF1F9D00C80081507F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F22AAD51F9D00C80081507F /* AppDelegate.swift */; };
 		1F22AAE01F9D00C80081507F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F22AAD61F9D00C80081507F /* Info.plist */; };
+		1FAB84881F9DF7500011FC0E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1FAB84871F9DF7500011FC0E /* GoogleService-Info.plist */; };
 		1FF8859A1D28D40A00DD1AAB /* owlcamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF885991D28D40A00DD1AAB /* owlcamTests.swift */; };
 		1FF885A51D28D40A00DD1AAB /* owlcamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF885A41D28D40A00DD1AAB /* owlcamUITests.swift */; };
 		1FF885B51D28DC8500DD1AAB /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF885B41D28DC8500DD1AAB /* ImageIO.framework */; };
+		516A207B76BE01C13B599BF8 /* Pods_owlcamUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7339E10B70EFC226E92E57F6 /* Pods_owlcamUITests.framework */; };
+		D49794EC22528B69E868AD90 /* Pods_owlcam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48EAC0864DAAE25EFB88E777 /* Pods_owlcam.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,7 @@
 		1F22AAD41F9D00C80081507F /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		1F22AAD51F9D00C80081507F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F22AAD61F9D00C80081507F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FAB84871F9DF7500011FC0E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1FF885811D28D40900DD1AAB /* owlcam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = owlcam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FF885951D28D40A00DD1AAB /* owlcamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = owlcamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FF885991D28D40A00DD1AAB /* owlcamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = owlcamTests.swift; sourceTree = "<group>"; };
@@ -60,6 +65,15 @@
 		1FF885A61D28D40A00DD1AAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FF885B21D28D90D00DD1AAB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		1FF885B41D28DC8500DD1AAB /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		27FEF9DFBF26F1CDF8A90B46 /* Pods-owlcamUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-owlcamUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-owlcamUITests/Pods-owlcamUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		44881F6DF3BB9246884CBD65 /* Pods-owlcam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-owlcam.debug.xcconfig"; path = "Pods/Target Support Files/Pods-owlcam/Pods-owlcam.debug.xcconfig"; sourceTree = "<group>"; };
+		48EAC0864DAAE25EFB88E777 /* Pods_owlcam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_owlcam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		686DDF3DAEC7151243C1E82C /* Pods-owlcam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-owlcam.release.xcconfig"; path = "Pods/Target Support Files/Pods-owlcam/Pods-owlcam.release.xcconfig"; sourceTree = "<group>"; };
+		7339E10B70EFC226E92E57F6 /* Pods_owlcamUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_owlcamUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		758F33B3EE80178305144761 /* Pods_owlcamTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_owlcamTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE43605A637871C15FC54003 /* Pods-owlcamUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-owlcamUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-owlcamUITests/Pods-owlcamUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EFEC051D9722511A48736DBA /* Pods-owlcamTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-owlcamTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-owlcamTests/Pods-owlcamTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F2F3A7AC845DAF4EED398DBC /* Pods-owlcamTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-owlcamTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-owlcamTests/Pods-owlcamTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +83,7 @@
 			files = (
 				1F10B21B1DE5FFA000A971AC /* AVFoundation.framework in Frameworks */,
 				1FF885B51D28DC8500DD1AAB /* ImageIO.framework in Frameworks */,
+				D49794EC22528B69E868AD90 /* Pods_owlcam.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00D49F8BA0D6EA2B2B872BD6 /* Pods_owlcamTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				516A207B76BE01C13B599BF8 /* Pods_owlcamUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +115,7 @@
 				1F22AAD21F9D00C80081507F /* Main.storyboard */,
 				1F22AAD51F9D00C80081507F /* AppDelegate.swift */,
 				1F22AAD61F9D00C80081507F /* Info.plist */,
+				1FAB84871F9DF7500011FC0E /* GoogleService-Info.plist */,
 				1F22AAD01F9D00C80081507F /* LaunchScreen.storyboard */,
 			);
 			path = owlcam;
@@ -131,6 +149,8 @@
 				1FF885821D28D40900DD1AAB /* Products */,
 				1FF885B41D28DC8500DD1AAB /* ImageIO.framework */,
 				1FF885B21D28D90D00DD1AAB /* AVFoundation.framework */,
+				3AA751263E04DF7AEBFF8122 /* Pods */,
+				50DB81819CEF0279C30DA305 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -162,6 +182,29 @@
 			path = owlcamUITests;
 			sourceTree = "<group>";
 		};
+		3AA751263E04DF7AEBFF8122 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44881F6DF3BB9246884CBD65 /* Pods-owlcam.debug.xcconfig */,
+				686DDF3DAEC7151243C1E82C /* Pods-owlcam.release.xcconfig */,
+				EFEC051D9722511A48736DBA /* Pods-owlcamTests.debug.xcconfig */,
+				F2F3A7AC845DAF4EED398DBC /* Pods-owlcamTests.release.xcconfig */,
+				27FEF9DFBF26F1CDF8A90B46 /* Pods-owlcamUITests.debug.xcconfig */,
+				CE43605A637871C15FC54003 /* Pods-owlcamUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		50DB81819CEF0279C30DA305 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48EAC0864DAAE25EFB88E777 /* Pods_owlcam.framework */,
+				758F33B3EE80178305144761 /* Pods_owlcamTests.framework */,
+				7339E10B70EFC226E92E57F6 /* Pods_owlcamUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -169,9 +212,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1FF885A91D28D40A00DD1AAB /* Build configuration list for PBXNativeTarget "owlcam" */;
 			buildPhases = (
+				56D97EDBB9E0DE6FBC3758DF /* [CP] Check Pods Manifest.lock */,
 				1FF8857D1D28D40900DD1AAB /* Sources */,
 				1FF8857E1D28D40900DD1AAB /* Frameworks */,
 				1FF8857F1D28D40900DD1AAB /* Resources */,
+				ED6F8DBE3D7772DCAB91AA99 /* [CP] Embed Pods Frameworks */,
+				A8B97299EBF5E16A95155D2D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -186,9 +232,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1FF885AC1D28D40A00DD1AAB /* Build configuration list for PBXNativeTarget "owlcamTests" */;
 			buildPhases = (
+				29096A2E6D1B75BE66DDA49D /* [CP] Check Pods Manifest.lock */,
 				1FF885911D28D40A00DD1AAB /* Sources */,
 				1FF885921D28D40A00DD1AAB /* Frameworks */,
 				1FF885931D28D40A00DD1AAB /* Resources */,
+				7F1039E6193780606FF437A2 /* [CP] Embed Pods Frameworks */,
+				2B87A004709B2AB087D4B995 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -204,9 +253,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1FF885AF1D28D40A00DD1AAB /* Build configuration list for PBXNativeTarget "owlcamUITests" */;
 			buildPhases = (
+				90D844C03CA0148FA49C40CE /* [CP] Check Pods Manifest.lock */,
 				1FF8859C1D28D40A00DD1AAB /* Sources */,
 				1FF8859D1D28D40A00DD1AAB /* Frameworks */,
 				1FF8859E1D28D40A00DD1AAB /* Resources */,
+				15E6A0C79EAD83E369D98EC2 /* [CP] Embed Pods Frameworks */,
+				554B06E136E7F215E368D3A5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -272,6 +324,7 @@
 			files = (
 				1F22AAE01F9D00C80081507F /* Info.plist in Resources */,
 				1F22AADD1F9D00C80081507F /* Main.storyboard in Resources */,
+				1FAB84881F9DF7500011FC0E /* GoogleService-Info.plist in Resources */,
 				1F22AAD91F9D00C80081507F /* Assets.xcassets in Resources */,
 				1F22AADC1F9D00C80081507F /* LaunchScreen.storyboard in Resources */,
 			);
@@ -292,6 +345,158 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15E6A0C79EAD83E369D98EC2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-owlcamUITests/Pods-owlcamUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29096A2E6D1B75BE66DDA49D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-owlcamTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B87A004709B2AB087D4B995 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-owlcamTests/Pods-owlcamTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		554B06E136E7F215E368D3A5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-owlcamUITests/Pods-owlcamUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56D97EDBB9E0DE6FBC3758DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-owlcam-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F1039E6193780606FF437A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-owlcamTests/Pods-owlcamTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90D844C03CA0148FA49C40CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-owlcamUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8B97299EBF5E16A95155D2D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-owlcam/Pods-owlcam-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED6F8DBE3D7772DCAB91AA99 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-owlcam/Pods-owlcam-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-owlcam/Pods-owlcam-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1FF8857D1D28D40900DD1AAB /* Sources */ = {
@@ -443,6 +648,7 @@
 		};
 		1FF885AA1D28D40A00DD1AAB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44881F6DF3BB9246884CBD65 /* Pods-owlcam.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -460,6 +666,7 @@
 		};
 		1FF885AB1D28D40A00DD1AAB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 686DDF3DAEC7151243C1E82C /* Pods-owlcam.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -477,6 +684,7 @@
 		};
 		1FF885AD1D28D40A00DD1AAB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFEC051D9722511A48736DBA /* Pods-owlcamTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +699,7 @@
 		};
 		1FF885AE1D28D40A00DD1AAB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2F3A7AC845DAF4EED398DBC /* Pods-owlcamTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,6 +714,7 @@
 		};
 		1FF885B01D28D40A00DD1AAB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27FEF9DFBF26F1CDF8A90B46 /* Pods-owlcamUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = owlcamUITests/Info.plist;
@@ -518,6 +728,7 @@
 		};
 		1FF885B11D28D40A00DD1AAB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE43605A637871C15FC54003 /* Pods-owlcamUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = owlcamUITests/Info.plist;
